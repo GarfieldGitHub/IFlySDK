@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/GarfieldGitHub/IFlySDK.git", :tag => "1.0" }
   s.vendored_frameworks = 'iflyMSC.framework'
-  s.resources = "common.jet"
   s.libraries = 'c++', 'z'
   s.frameworks = 'AVFoundation', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'UIKit', 'CoreLocation', 'Contacts', 'AddressBook', 'QuartzCore', 'CoreGraphics'
   s.requires_arc = true
